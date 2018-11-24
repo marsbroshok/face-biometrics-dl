@@ -1,3 +1,5 @@
+import numpy as np
+
 # Google Drive upload/doanload helpers
 def drive_upload_file(full_filename):
   filename = os.path.basename(full_filename)
